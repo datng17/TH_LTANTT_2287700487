@@ -4,7 +4,7 @@ from argon2.exceptions import VerifyMismatchError
 from argon2 import PasswordHasher
 
 def test_hash_password_and_verify():
-    password = "StrongPass123!" # Xóa thông tin nhạy cảm
+    password = "" # Xóa thông tin nhạy cảm
     hashed = hash_utils.hash_password_secure(password)
     assert hashed is not None
     ph = PasswordHasher()
