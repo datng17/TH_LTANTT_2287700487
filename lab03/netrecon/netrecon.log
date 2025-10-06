@@ -1,0 +1,637 @@
+INFO:root:[2025-10-06 14:39:14] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 14:39:19] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 14:39 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 5.33 seconds
+
+INFO:root:[2025-10-06 14:39:25] Mapping network...
+INFO:root:[2025-10-06 14:39:25] 
+Interface: 192.168.68.1 --- 0x2
+  Internet Address      Physical Address      Type
+  192.168.68.254        00-50-56-ff-3a-86     dynamic   
+  192.168.68.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 10.12.140.231 --- 0x7
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.3.150           e0-d0-45-51-c0-e8     dynamic   
+  10.12.3.188           04-6c-59-cc-71-fd     dynamic   
+  10.12.8.141           34-6f-24-eb-07-05     dynamic   
+  10.12.9.114           5c-b4-7e-99-6e-e8     dynamic   
+  10.12.11.147          cc-15-31-65-2f-16     dynamic   
+  10.12.13.213          74-c6-3b-43-16-36     dynamic   
+  10.12.13.226          e0-0a-f6-5f-11-3d     dynamic   
+  10.12.14.99           3c-91-80-d9-48-13     dynamic   
+  10.12.15.50           cc-d9-ac-6b-27-77     dynamic   
+  10.12.16.156          94-e7-0b-8e-5a-76     dynamic   
+  10.12.20.1            bc-03-58-cf-86-27     dynamic   
+  10.12.20.39           74-4c-a1-94-3e-ab     dynamic   
+  10.12.21.52           9c-67-d6-f4-18-89     dynamic   
+  10.12.24.135          7c-b2-7d-1a-d4-2a     dynamic   
+  10.12.24.211          14-13-33-88-f7-a5     dynamic   
+  10.12.25.160          d4-54-8b-1a-b6-6b     dynamic   
+  10.12.25.201          e0-0a-f6-bc-f9-83     dynamic   
+  10.12.26.49           3c-f8-62-bc-64-48     dynamic   
+  10.12.26.87           2c-9c-58-2c-a9-d5     dynamic   
+  10.12.26.164          50-2f-9b-05-f5-82     dynamic   
+  10.12.26.205          7c-70-db-47-31-a0     dynamic   
+  10.12.26.236          dc-21-5c-08-42-e7     dynamic   
+  10.12.27.27           da-12-02-75-e2-02     dynamic   
+  10.12.27.56           e4-a4-71-3a-db-3a     dynamic   
+  10.12.27.177          c0-b8-83-36-19-fb     dynamic   
+  10.12.27.237          c4-23-60-98-68-04     dynamic   
+  10.12.29.117          14-ac-60-34-b6-33     dynamic   
+  10.12.30.35           f6-1f-a1-8d-7a-92     dynamic   
+  10.12.32.93           9c-fc-e8-22-bd-84     dynamic   
+  10.12.35.130          14-5a-fc-6d-d6-af     dynamic   
+  10.12.48.16           86-dd-f2-0e-0f-e2     dynamic   
+  10.12.51.77           30-f6-ef-e8-70-bf     dynamic   
+  10.12.52.224          f4-ce-23-d9-af-e4     dynamic   
+  10.12.55.23           ac-50-de-cb-37-07     dynamic   
+  10.12.65.228          d4-25-8b-71-ad-c7     dynamic   
+  10.12.66.174          38-87-d5-9f-1c-94     dynamic   
+  10.12.70.106          ec-8e-77-5f-07-35     dynamic   
+  10.12.73.221          50-84-92-66-ef-45     dynamic   
+  10.12.74.114          a8-6d-aa-7f-9a-9a     dynamic   
+  10.12.77.223          50-bb-b5-bf-22-b4     dynamic   
+  10.12.78.243          00-42-38-13-c5-5e     dynamic   
+  10.12.80.186          c4-cb-76-97-ef-cb     dynamic   
+  10.12.80.214          78-af-08-e2-4c-99     dynamic   
+  10.12.83.230          d0-39-57-9f-6f-fd     dynamic   
+  10.12.88.251          b4-6d-83-2b-df-b3     dynamic   
+  10.12.89.235          e4-aa-ea-9a-6b-c7     dynamic   
+  10.12.91.63           dc-21-5c-9b-46-5a     dynamic   
+  10.12.91.182          54-13-79-07-5c-a1     dynamic   
+  10.12.92.67           f8-3d-c6-65-2d-c6     dynamic   
+  10.12.92.111          a0-d3-65-5c-0a-6c     dynamic   
+  10.12.92.150          12-0f-4d-8b-45-71     dynamic   
+  10.12.92.174          66-40-6d-56-26-de     dynamic   
+  10.12.92.183          28-0c-50-68-d9-86     dynamic   
+  10.12.92.234          c8-58-c0-7f-ff-30     dynamic   
+  10.12.93.5            c4-75-ab-bb-59-d1     dynamic   
+  10.12.93.53           f4-ce-23-d9-49-af     dynamic   
+  10.12.93.67           ac-d5-64-b1-11-ed     dynamic   
+  10.12.93.82           e4-aa-ea-90-6e-fb     dynamic   
+  10.12.93.110          2c-6d-c1-57-ab-d9     dynamic   
+  10.12.93.250          ec-63-d7-e3-93-6a     dynamic   
+  10.12.94.36           50-5a-65-05-4a-83     dynamic   
+  10.12.94.52           20-0b-74-6e-dd-03     dynamic   
+  10.12.94.57           38-87-d5-98-6e-44     dynamic   
+  10.12.94.182          8c-1d-96-39-67-c3     dynamic   
+  10.12.94.186          a0-b3-39-ce-fa-f4     dynamic   
+  10.12.96.150          80-38-fb-e4-9f-f3     dynamic   
+  10.12.97.166          3c-9c-0f-9b-be-78     dynamic   
+  10.12.99.185          34-6f-24-1b-0b-ad     dynamic   
+  10.12.127.40          00-41-0e-98-8f-3b     dynamic   
+  10.12.130.159         4c-03-4f-e4-5d-0e     dynamic   
+  10.12.137.205         e8-bf-b8-94-82-16     dynamic   
+  10.12.151.27          50-c2-e8-94-cc-8b     dynamic   
+  10.12.151.32          e0-2e-0b-7e-66-fc     dynamic   
+  10.12.151.37          58-96-1d-f9-60-28     dynamic   
+  10.12.151.40          dc-21-48-83-20-9d     dynamic   
+  10.12.152.79          b8-1e-a4-da-24-ff     dynamic   
+  10.12.156.64          54-14-f3-b3-29-3c     dynamic   
+  10.12.156.75          04-ec-d8-64-0c-8a     dynamic   
+  10.12.156.250         f8-54-f6-20-a6-47     dynamic   
+  10.12.157.119         f8-b5-4d-fd-54-71     dynamic   
+  10.12.157.210         dc-90-09-6d-20-81     dynamic   
+  10.12.158.7           7c-50-79-e8-de-51     dynamic   
+  10.12.158.135         18-93-41-b4-b6-12     dynamic   
+  10.12.158.140         14-d4-24-1c-31-41     dynamic   
+  10.12.159.205         1e-d6-bf-49-6f-5b     dynamic   
+  10.12.164.32          b8-45-59-7b-8c-51     dynamic   
+  10.12.164.53          90-0f-0c-4c-4d-87     dynamic   
+  10.12.165.207         9c-fc-e8-d3-8a-ce     dynamic   
+  10.12.166.5           8c-c8-4b-c5-5f-b5     dynamic   
+  10.12.167.15          24-b2-b9-11-f6-2b     dynamic   
+  10.12.172.175         f8-89-d2-14-87-b9     dynamic   
+  10.12.172.210         70-a8-d3-1b-80-2d     dynamic   
+  10.12.174.76          d8-80-83-9b-51-cd     dynamic   
+  10.12.178.246         4c-03-4f-f5-7a-30     dynamic   
+  10.12.180.27          94-bb-43-f2-81-b2     dynamic   
+  10.12.180.117         54-14-f3-b6-61-c4     dynamic   
+  10.12.184.114         18-56-80-6b-72-68     dynamic   
+  10.12.188.141         e0-0a-f6-a2-7e-33     dynamic   
+  10.12.189.44          e8-fb-1c-c2-05-0f     dynamic   
+  10.12.189.59          90-e8-68-cf-65-43     dynamic   
+  10.12.189.112         14-5a-fc-68-85-c5     dynamic   
+  10.12.189.234         10-a5-1d-11-d5-0a     dynamic   
+  10.12.190.90          34-6f-24-e4-be-a5     dynamic   
+  10.12.193.72          98-5f-41-8a-d1-f8     dynamic   
+  10.12.194.47          00-45-e2-9f-00-37     dynamic   
+  10.12.195.3           48-51-c5-98-dc-3a     dynamic   
+  10.12.195.56          50-c2-e8-33-f2-15     dynamic   
+  10.12.195.68          74-3a-f4-0c-e7-89     dynamic   
+  10.12.195.161         04-ec-d8-32-27-c9     dynamic   
+  10.12.197.241         20-2b-20-ea-c8-a7     dynamic   
+  10.12.198.19          7c-70-db-61-02-ab     dynamic   
+  10.12.198.199         2c-6d-c1-2b-86-ad     dynamic   
+  10.12.199.4           50-76-af-0b-8a-5b     dynamic   
+  10.12.199.6           b4-8c-9d-33-3c-f9     dynamic   
+  10.12.199.90          e0-8f-4c-d7-8b-56     dynamic   
+  10.12.199.179         70-1a-b8-17-fd-13     dynamic   
+  10.12.199.194         20-0b-74-26-b7-dc     dynamic   
+  10.12.255.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.56.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 26.59.12.181 --- 0xe
+  Internet Address      Physical Address      Type
+  26.0.0.1              02-00-00-00-51-00     dynamic   
+  26.255.255.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.26.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.26.254        00-50-56-e3-73-8c     dynamic   
+  192.168.26.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:root:[2025-10-06 14:40:04] Port 80 is open on scanme.nmap.org
+INFO:root:[2025-10-06 14:40:05] Port 22 is open on scanme.nmap.org
+INFO:root:[2025-10-06 14:40:39] Port 80 is open on 192.168.1.1
+INFO:root:[2025-10-06 14:40:40] Running service detection on 192.168.1.1:21,21,80,443
+INFO:root:[2025-10-06 14:41:03] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 14:40 +0700
+Stats: 0:00:10 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Nmap scan report for 192.168.1.1
+Host is up (0.36s latency).
+
+PORT    STATE    SERVICE    VERSION
+21/tcp  filtered ftp
+80/tcp  open     http-proxy Squid http proxy 6.3
+443/tcp filtered https
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.55 seconds
+
+INFO:root:[2025-10-06 14:41:11] Mapping network...
+INFO:root:[2025-10-06 14:41:11] 
+Interface: 192.168.68.1 --- 0x2
+  Internet Address      Physical Address      Type
+  192.168.68.254        00-50-56-ff-3a-86     dynamic   
+  192.168.68.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 10.12.140.231 --- 0x7
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.3.150           e0-d0-45-51-c0-e8     dynamic   
+  10.12.3.188           04-6c-59-cc-71-fd     dynamic   
+  10.12.8.141           34-6f-24-eb-07-05     dynamic   
+  10.12.9.114           5c-b4-7e-99-6e-e8     dynamic   
+  10.12.11.147          cc-15-31-65-2f-16     dynamic   
+  10.12.13.213          74-c6-3b-43-16-36     dynamic   
+  10.12.13.226          e0-0a-f6-5f-11-3d     dynamic   
+  10.12.14.99           3c-91-80-d9-48-13     dynamic   
+  10.12.15.50           cc-d9-ac-6b-27-77     dynamic   
+  10.12.16.156          94-e7-0b-8e-5a-76     dynamic   
+  10.12.20.1            bc-03-58-cf-86-27     dynamic   
+  10.12.20.39           74-4c-a1-94-3e-ab     dynamic   
+  10.12.21.52           9c-67-d6-f4-18-89     dynamic   
+  10.12.24.135          7c-b2-7d-1a-d4-2a     dynamic   
+  10.12.24.158          14-5a-fc-8d-16-f9     dynamic   
+  10.12.24.211          14-13-33-88-f7-a5     dynamic   
+  10.12.25.160          d4-54-8b-1a-b6-6b     dynamic   
+  10.12.25.201          e0-0a-f6-bc-f9-83     dynamic   
+  10.12.26.49           3c-f8-62-bc-64-48     dynamic   
+  10.12.26.87           2c-9c-58-2c-a9-d5     dynamic   
+  10.12.26.164          50-2f-9b-05-f5-82     dynamic   
+  10.12.26.205          7c-70-db-47-31-a0     dynamic   
+  10.12.26.236          dc-21-5c-08-42-e7     dynamic   
+  10.12.27.27           da-12-02-75-e2-02     dynamic   
+  10.12.27.56           e4-a4-71-3a-db-3a     dynamic   
+  10.12.27.177          c0-b8-83-36-19-fb     dynamic   
+  10.12.27.237          c4-23-60-98-68-04     dynamic   
+  10.12.29.117          14-ac-60-34-b6-33     dynamic   
+  10.12.30.35           f6-1f-a1-8d-7a-92     dynamic   
+  10.12.32.93           9c-fc-e8-22-bd-84     dynamic   
+  10.12.35.130          14-5a-fc-6d-d6-af     dynamic   
+  10.12.48.16           86-dd-f2-0e-0f-e2     dynamic   
+  10.12.51.77           30-f6-ef-e8-70-bf     dynamic   
+  10.12.52.224          f4-ce-23-d9-af-e4     dynamic   
+  10.12.55.23           ac-50-de-cb-37-07     dynamic   
+  10.12.65.228          d4-25-8b-71-ad-c7     dynamic   
+  10.12.66.174          38-87-d5-9f-1c-94     dynamic   
+  10.12.70.106          ec-8e-77-5f-07-35     dynamic   
+  10.12.73.221          50-84-92-66-ef-45     dynamic   
+  10.12.74.114          a8-6d-aa-7f-9a-9a     dynamic   
+  10.12.77.223          50-bb-b5-bf-22-b4     dynamic   
+  10.12.78.243          00-42-38-13-c5-5e     dynamic   
+  10.12.80.186          c4-cb-76-97-ef-cb     dynamic   
+  10.12.80.214          78-af-08-e2-4c-99     dynamic   
+  10.12.83.230          d0-39-57-9f-6f-fd     dynamic   
+  10.12.88.251          b4-6d-83-2b-df-b3     dynamic   
+  10.12.89.235          e4-aa-ea-9a-6b-c7     dynamic   
+  10.12.91.63           dc-21-5c-9b-46-5a     dynamic   
+  10.12.91.182          54-13-79-07-5c-a1     dynamic   
+  10.12.92.67           f8-3d-c6-65-2d-c6     dynamic   
+  10.12.92.111          a0-d3-65-5c-0a-6c     dynamic   
+  10.12.92.150          12-0f-4d-8b-45-71     dynamic   
+  10.12.92.174          66-40-6d-56-26-de     dynamic   
+  10.12.92.183          28-0c-50-68-d9-86     dynamic   
+  10.12.92.234          c8-58-c0-7f-ff-30     dynamic   
+  10.12.93.5            c4-75-ab-bb-59-d1     dynamic   
+  10.12.93.53           f4-ce-23-d9-49-af     dynamic   
+  10.12.93.67           ac-d5-64-b1-11-ed     dynamic   
+  10.12.93.82           e4-aa-ea-90-6e-fb     dynamic   
+  10.12.93.110          2c-6d-c1-57-ab-d9     dynamic   
+  10.12.93.250          ec-63-d7-e3-93-6a     dynamic   
+  10.12.94.36           50-5a-65-05-4a-83     dynamic   
+  10.12.94.52           20-0b-74-6e-dd-03     dynamic   
+  10.12.94.57           38-87-d5-98-6e-44     dynamic   
+  10.12.94.182          8c-1d-96-39-67-c3     dynamic   
+  10.12.94.186          a0-b3-39-ce-fa-f4     dynamic   
+  10.12.96.150          80-38-fb-e4-9f-f3     dynamic   
+  10.12.97.166          3c-9c-0f-9b-be-78     dynamic   
+  10.12.99.185          34-6f-24-1b-0b-ad     dynamic   
+  10.12.127.40          00-41-0e-98-8f-3b     dynamic   
+  10.12.130.159         4c-03-4f-e4-5d-0e     dynamic   
+  10.12.137.205         e8-bf-b8-94-82-16     dynamic   
+  10.12.151.27          50-c2-e8-94-cc-8b     dynamic   
+  10.12.151.32          e0-2e-0b-7e-66-fc     dynamic   
+  10.12.151.37          58-96-1d-f9-60-28     dynamic   
+  10.12.151.40          dc-21-48-83-20-9d     dynamic   
+  10.12.152.79          b8-1e-a4-da-24-ff     dynamic   
+  10.12.156.64          54-14-f3-b3-29-3c     dynamic   
+  10.12.156.75          04-ec-d8-64-0c-8a     dynamic   
+  10.12.156.250         f8-54-f6-20-a6-47     dynamic   
+  10.12.157.119         f8-b5-4d-fd-54-71     dynamic   
+  10.12.157.210         dc-90-09-6d-20-81     dynamic   
+  10.12.158.7           7c-50-79-e8-de-51     dynamic   
+  10.12.158.135         18-93-41-b4-b6-12     dynamic   
+  10.12.158.140         14-d4-24-1c-31-41     dynamic   
+  10.12.159.205         1e-d6-bf-49-6f-5b     dynamic   
+  10.12.164.32          b8-45-59-7b-8c-51     dynamic   
+  10.12.164.53          90-0f-0c-4c-4d-87     dynamic   
+  10.12.165.207         9c-fc-e8-d3-8a-ce     dynamic   
+  10.12.166.5           8c-c8-4b-c5-5f-b5     dynamic   
+  10.12.167.15          24-b2-b9-11-f6-2b     dynamic   
+  10.12.172.175         f8-89-d2-14-87-b9     dynamic   
+  10.12.172.210         70-a8-d3-1b-80-2d     dynamic   
+  10.12.174.76          d8-80-83-9b-51-cd     dynamic   
+  10.12.174.118         94-e2-3c-2a-76-91     dynamic   
+  10.12.178.246         4c-03-4f-f5-7a-30     dynamic   
+  10.12.180.27          94-bb-43-f2-81-b2     dynamic   
+  10.12.184.114         18-56-80-6b-72-68     dynamic   
+  10.12.188.141         e0-0a-f6-a2-7e-33     dynamic   
+  10.12.189.44          e8-fb-1c-c2-05-0f     dynamic   
+  10.12.189.59          90-e8-68-cf-65-43     dynamic   
+  10.12.189.112         14-5a-fc-68-85-c5     dynamic   
+  10.12.189.178         f4-6a-dd-75-d3-15     dynamic   
+  10.12.189.234         10-a5-1d-11-d5-0a     dynamic   
+  10.12.190.90          34-6f-24-e4-be-a5     dynamic   
+  10.12.193.72          98-5f-41-8a-d1-f8     dynamic   
+  10.12.194.47          00-45-e2-9f-00-37     dynamic   
+  10.12.194.224         28-0c-50-68-d9-86     dynamic   
+  10.12.195.3           48-51-c5-98-dc-3a     dynamic   
+  10.12.195.56          50-c2-e8-33-f2-15     dynamic   
+  10.12.195.68          74-3a-f4-0c-e7-89     dynamic   
+  10.12.195.161         04-ec-d8-32-27-c9     dynamic   
+  10.12.197.241         20-2b-20-ea-c8-a7     dynamic   
+  10.12.198.19          7c-70-db-61-02-ab     dynamic   
+  10.12.198.199         2c-6d-c1-2b-86-ad     dynamic   
+  10.12.199.4           50-76-af-0b-8a-5b     dynamic   
+  10.12.199.6           b4-8c-9d-33-3c-f9     dynamic   
+  10.12.199.90          e0-8f-4c-d7-8b-56     dynamic   
+  10.12.199.179         70-1a-b8-17-fd-13     dynamic   
+  10.12.199.194         20-0b-74-26-b7-dc     dynamic   
+  10.12.255.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.56.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 26.59.12.181 --- 0xe
+  Internet Address      Physical Address      Type
+  26.0.0.1              02-00-00-00-51-00     dynamic   
+  26.255.255.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.26.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.26.254        00-50-56-e3-73-8c     dynamic   
+  192.168.26.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.140.231:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-720-672
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:41:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:41:55] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:41:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:[2025-10-06 14:42:14] Running service detection on 10.12.0.254:22,80,443
+INFO:root:[2025-10-06 14:42:17] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 14:42 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.14 seconds
+
+INFO:root:[2025-10-06 14:42:23] Mapping network...
+INFO:root:[2025-10-06 14:42:23] 
+Interface: 192.168.68.1 --- 0x2
+  Internet Address      Physical Address      Type
+  192.168.68.254        00-50-56-ff-3a-86     dynamic   
+  192.168.68.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 10.12.140.231 --- 0x7
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.3.150           e0-d0-45-51-c0-e8     dynamic   
+  10.12.3.188           04-6c-59-cc-71-fd     dynamic   
+  10.12.8.141           34-6f-24-eb-07-05     dynamic   
+  10.12.9.114           5c-b4-7e-99-6e-e8     dynamic   
+  10.12.11.147          cc-15-31-65-2f-16     dynamic   
+  10.12.13.213          74-c6-3b-43-16-36     dynamic   
+  10.12.13.226          e0-0a-f6-5f-11-3d     dynamic   
+  10.12.14.99           3c-91-80-d9-48-13     dynamic   
+  10.12.15.50           cc-d9-ac-6b-27-77     dynamic   
+  10.12.16.156          94-e7-0b-8e-5a-76     dynamic   
+  10.12.20.1            bc-03-58-cf-86-27     dynamic   
+  10.12.20.39           74-4c-a1-94-3e-ab     dynamic   
+  10.12.21.52           9c-67-d6-f4-18-89     dynamic   
+  10.12.24.135          7c-b2-7d-1a-d4-2a     dynamic   
+  10.12.24.158          14-5a-fc-8d-16-f9     dynamic   
+  10.12.24.191          f8-54-f6-d5-55-ca     dynamic   
+  10.12.24.211          14-13-33-88-f7-a5     dynamic   
+  10.12.25.160          d4-54-8b-1a-b6-6b     dynamic   
+  10.12.25.201          e0-0a-f6-bc-f9-83     dynamic   
+  10.12.26.49           3c-f8-62-bc-64-48     dynamic   
+  10.12.26.87           2c-9c-58-2c-a9-d5     dynamic   
+  10.12.26.164          50-2f-9b-05-f5-82     dynamic   
+  10.12.26.205          7c-70-db-47-31-a0     dynamic   
+  10.12.26.236          dc-21-5c-08-42-e7     dynamic   
+  10.12.27.27           da-12-02-75-e2-02     dynamic   
+  10.12.27.56           e4-a4-71-3a-db-3a     dynamic   
+  10.12.27.177          c0-b8-83-36-19-fb     dynamic   
+  10.12.27.237          c4-23-60-98-68-04     dynamic   
+  10.12.29.117          14-ac-60-34-b6-33     dynamic   
+  10.12.30.35           f6-1f-a1-8d-7a-92     dynamic   
+  10.12.32.93           9c-fc-e8-22-bd-84     dynamic   
+  10.12.35.130          14-5a-fc-6d-d6-af     dynamic   
+  10.12.48.16           86-dd-f2-0e-0f-e2     dynamic   
+  10.12.51.77           30-f6-ef-e8-70-bf     dynamic   
+  10.12.52.224          f4-ce-23-d9-af-e4     dynamic   
+  10.12.55.23           ac-50-de-cb-37-07     dynamic   
+  10.12.65.228          d4-25-8b-71-ad-c7     dynamic   
+  10.12.66.174          38-87-d5-9f-1c-94     dynamic   
+  10.12.70.106          ec-8e-77-5f-07-35     dynamic   
+  10.12.73.221          50-84-92-66-ef-45     dynamic   
+  10.12.74.114          a8-6d-aa-7f-9a-9a     dynamic   
+  10.12.77.223          50-bb-b5-bf-22-b4     dynamic   
+  10.12.78.243          00-42-38-13-c5-5e     dynamic   
+  10.12.80.186          c4-cb-76-97-ef-cb     dynamic   
+  10.12.80.214          78-af-08-e2-4c-99     dynamic   
+  10.12.83.230          d0-39-57-9f-6f-fd     dynamic   
+  10.12.88.251          b4-6d-83-2b-df-b3     dynamic   
+  10.12.89.235          e4-aa-ea-9a-6b-c7     dynamic   
+  10.12.91.63           dc-21-5c-9b-46-5a     dynamic   
+  10.12.91.182          54-13-79-07-5c-a1     dynamic   
+  10.12.92.67           f8-3d-c6-65-2d-c6     dynamic   
+  10.12.92.111          a0-d3-65-5c-0a-6c     dynamic   
+  10.12.92.150          12-0f-4d-8b-45-71     dynamic   
+  10.12.92.174          66-40-6d-56-26-de     dynamic   
+  10.12.92.183          28-0c-50-68-d9-86     dynamic   
+  10.12.92.234          c8-58-c0-7f-ff-30     dynamic   
+  10.12.93.5            c4-75-ab-bb-59-d1     dynamic   
+  10.12.93.53           f4-ce-23-d9-49-af     dynamic   
+  10.12.93.67           ac-d5-64-b1-11-ed     dynamic   
+  10.12.93.82           e4-aa-ea-90-6e-fb     dynamic   
+  10.12.93.110          2c-6d-c1-57-ab-d9     dynamic   
+  10.12.93.250          ec-63-d7-e3-93-6a     dynamic   
+  10.12.94.36           50-5a-65-05-4a-83     dynamic   
+  10.12.94.52           20-0b-74-6e-dd-03     dynamic   
+  10.12.94.57           38-87-d5-98-6e-44     dynamic   
+  10.12.94.182          8c-1d-96-39-67-c3     dynamic   
+  10.12.94.186          a0-b3-39-ce-fa-f4     dynamic   
+  10.12.96.150          80-38-fb-e4-9f-f3     dynamic   
+  10.12.97.166          3c-9c-0f-9b-be-78     dynamic   
+  10.12.99.185          34-6f-24-1b-0b-ad     dynamic   
+  10.12.127.40          00-41-0e-98-8f-3b     dynamic   
+  10.12.130.159         4c-03-4f-e4-5d-0e     dynamic   
+  10.12.137.205         e8-bf-b8-94-82-16     dynamic   
+  10.12.151.27          50-c2-e8-94-cc-8b     dynamic   
+  10.12.151.32          e0-2e-0b-7e-66-fc     dynamic   
+  10.12.151.37          58-96-1d-f9-60-28     dynamic   
+  10.12.151.40          dc-21-48-83-20-9d     dynamic   
+  10.12.152.79          b8-1e-a4-da-24-ff     dynamic   
+  10.12.156.64          54-14-f3-b3-29-3c     dynamic   
+  10.12.156.75          04-ec-d8-64-0c-8a     dynamic   
+  10.12.156.250         f8-54-f6-20-a6-47     dynamic   
+  10.12.157.119         f8-b5-4d-fd-54-71     dynamic   
+  10.12.157.210         dc-90-09-6d-20-81     dynamic   
+  10.12.158.7           7c-50-79-e8-de-51     dynamic   
+  10.12.158.135         18-93-41-b4-b6-12     dynamic   
+  10.12.158.140         14-d4-24-1c-31-41     dynamic   
+  10.12.159.205         1e-d6-bf-49-6f-5b     dynamic   
+  10.12.164.32          b8-45-59-7b-8c-51     dynamic   
+  10.12.164.53          90-0f-0c-4c-4d-87     dynamic   
+  10.12.165.207         9c-fc-e8-d3-8a-ce     dynamic   
+  10.12.166.5           8c-c8-4b-c5-5f-b5     dynamic   
+  10.12.167.15          24-b2-b9-11-f6-2b     dynamic   
+  10.12.172.175         f8-89-d2-14-87-b9     dynamic   
+  10.12.172.210         70-a8-d3-1b-80-2d     dynamic   
+  10.12.174.76          d8-80-83-9b-51-cd     dynamic   
+  10.12.174.118         94-e2-3c-2a-76-91     dynamic   
+  10.12.178.246         4c-03-4f-f5-7a-30     dynamic   
+  10.12.180.27          94-bb-43-f2-81-b2     dynamic   
+  10.12.180.117         54-14-f3-b6-61-c4     dynamic   
+  10.12.184.114         18-56-80-6b-72-68     dynamic   
+  10.12.188.141         e0-0a-f6-a2-7e-33     dynamic   
+  10.12.189.44          e8-fb-1c-c2-05-0f     dynamic   
+  10.12.189.59          90-e8-68-cf-65-43     dynamic   
+  10.12.189.112         14-5a-fc-68-85-c5     dynamic   
+  10.12.189.178         f4-6a-dd-75-d3-15     dynamic   
+  10.12.189.234         10-a5-1d-11-d5-0a     dynamic   
+  10.12.190.90          34-6f-24-e4-be-a5     dynamic   
+  10.12.193.72          98-5f-41-8a-d1-f8     dynamic   
+  10.12.194.32          e8-fb-1c-4b-e8-f1     dynamic   
+  10.12.194.47          00-45-e2-9f-00-37     dynamic   
+  10.12.194.224         28-0c-50-68-d9-86     dynamic   
+  10.12.195.3           48-51-c5-98-dc-3a     dynamic   
+  10.12.195.56          50-c2-e8-33-f2-15     dynamic   
+  10.12.195.68          74-3a-f4-0c-e7-89     dynamic   
+  10.12.195.161         04-ec-d8-32-27-c9     dynamic   
+  10.12.197.241         20-2b-20-ea-c8-a7     dynamic   
+  10.12.198.19          7c-70-db-61-02-ab     dynamic   
+  10.12.198.199         2c-6d-c1-2b-86-ad     dynamic   
+  10.12.199.4           50-76-af-0b-8a-5b     dynamic   
+  10.12.199.6           b4-8c-9d-33-3c-f9     dynamic   
+  10.12.199.90          e0-8f-4c-d7-8b-56     dynamic   
+  10.12.199.179         70-1a-b8-17-fd-13     dynamic   
+  10.12.199.194         20-0b-74-26-b7-dc     dynamic   
+  10.12.255.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.56.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 26.59.12.181 --- 0xe
+  Internet Address      Physical Address      Type
+  26.0.0.1              02-00-00-00-51-00     dynamic   
+  26.255.255.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.26.1 --- 0x10
+  Internet Address      Physical Address      Type
+  192.168.26.254        00-50-56-e3-73-8c     dynamic   
+  192.168.26.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:42:28] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2025-10-06 16:00:17] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:01:12] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:02:40] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:07:24] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:12:06] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:13:49] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:16:27] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:16:31] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 16:16 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.95 seconds
+
+INFO:root:[2025-10-06 16:16:38] Mapping network...
+INFO:root:[2025-10-06 16:16:38] 
+Interface: 10.12.178.228 --- 0x3
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.171.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.171.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 169.254.208.159 --- 0x13
+  Internet Address      Physical Address      Type
+  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.178.228:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-624-213
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 16:17:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 16:17:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 16:17:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:[2025-10-06 16:18:04] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2025-10-06 16:18:08] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 16:18 +0700
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Ping Scan Timing: About 50.00% done; ETC: 16:18 (0:00:01 remaining)
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.50 seconds
+
+INFO:root:[2025-10-06 16:18:14] Mapping network...
+INFO:root:[2025-10-06 16:18:14] 
+Interface: 10.12.178.228 --- 0x3
+  Internet Address      Physical Address      Type
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.255.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.171.1 --- 0x8
+  Internet Address      Physical Address      Type
+  192.168.171.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 169.254.208.159 --- 0x13
+  Internet Address      Physical Address      Type
+  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 16:18:17] "POST /scan HTTP/1.1" 200 -

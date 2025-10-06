@@ -1,0 +1,2 @@
+{"timestamp": "2025-09-20T14:13:22.973680Z", "level": "INFO", "message": "Validation check performed", "data": "{'name': 'Add your name in the body'}", "results": "{'email': False, 'url': False, 'filename': True, 'sql': '', 'html': ''}"}
+{"timestamp": "2025-09-20T14:15:03.279063Z", "level": "INFO", "message": "Validation check performed", "data": "{'name': 'Add your name in the body'}", "results": "{'email': True, 'url': True, 'filename': True, 'sql': '1=1', 'html': '&lt;script&gt;alert(1)&lt;/script&gt;'}"}
