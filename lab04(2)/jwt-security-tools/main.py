@@ -4,7 +4,7 @@ from token_manager.manager import TokenManager
 if __name__ == "__main__":
     secret = ""
     manager = TokenManager(secret)
-    access_token, refresh_token = manager.generate_tokens("khanh")
+    access_token, refresh_token = manager.generate_tokens("Nguyen Do Thanh Dat")
 
     print("Access Token:", access_token)
     print("Refresh Token:", refresh_token)
